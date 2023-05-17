@@ -15,6 +15,6 @@ module.exports = {
     }),
   },
   resolver: {
-    assetExts: ['db', 'mp3', 'ttf', 'obj', 'png', 'jpg', 'gltf', 'glb'],
+    assetExts: ['db', 'mp3', 'ttf', 'obj', 'png', 'jpg', 'gltf', 'glb', 'mtl'],
   },
 };

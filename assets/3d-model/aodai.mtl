@@ -7,11 +7,11 @@ Ks 0.075000 0.075000 0.075000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 illum 2
-map_Kd C:/aodai_Base_color.png
-map_Ns C:/aodai_Roughness.png
-map_refl C:/aodai_Metallic.png
-map_d C:/aodai_Opacity.png
-map_Bump -bm 1.000000 C:/aodai_Normal.png
+map_Kd D:/code/ARapp/assets/3d-model/Base_color.jpg
+map_Ns D:/code/ARapp/assets/3d-model/Roughness.jpg
+map_refl D:/code/ARapp/assets/3d-model/Metallic.jpg
+map_d D:/code/ARapp/assets/3d-model/Opacity.jpg
+map_Bump -bm 1.000000 D:/code/ARapp/assets/3d-model/Normal.jpg
 
 newmtl quan_vai
 Ka 1.000000 1.000000 1.000000
@@ -19,8 +19,8 @@ Ks 0.075000 0.075000 0.075000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 illum 2
-map_Kd C:/quan vai_Base_color.png
-map_Ns C:/quan vai_Roughness.png
-map_refl C:/quan vai_Metallic.png
-map_d C:/quan vai_Opacity.png
-map_Bump -bm 1.000000 C:/quan vai_Normal.png
+map_Kd D:/code/ARapp/assets/3d-model/quan vai_Base_color.jpg
+map_Ns D:/code/ARapp/assets/3d-model/quan vai_Roughness.jpg
+map_refl D:/code/ARapp/assets/3d-model/quan vai_Metallic.jpg
+map_d D:/code/ARapp/assets/3d-model/quan vai_Opacity.jpg
+map_Bump -bm 1.000000 D:/code/ARapp/assets/3d-model/quan vai_Normal.jpg

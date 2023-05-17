@@ -9,7 +9,6 @@ import {
   TextInput,
 } from "react-native";
 import Icon from 'react-native-vector-icons/FontAwesome';
-import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import diacritics from 'diacritic';
 
 function MainScreen({ navigation }) {
@@ -19,7 +18,7 @@ function MainScreen({ navigation }) {
   //lấy dữ liệu từ web
   const fetchCostumes = async () => {
     try {
-      const response = await fetch('http://ec2-13-215-140-47.ap-southeast-1.compute.amazonaws.com:8080/api/clothes/getAll');
+      const response = await fetch('http://ec2-13-215-140-47.ap-southeast-1.compute.amazonaws.com:8081/api/clothes/getAll');
       const json = await response.json();
       setCostumes(json);
     } catch (error) {
@@ -29,7 +28,7 @@ function MainScreen({ navigation }) {
 
   const renderItem = ({ item }) => (
     <TouchableOpacity
-      onPress={() => navigation.navigate('ItemDetailScreen', { link: 'http://ec2-13-215-140-47.ap-southeast-1.compute.amazonaws.com:8080/api/clothes/' + item.id })}
+      onPress={() => navigation.navigate('ItemDetailScreen', { link: 'http://ec2-13-215-140-47.ap-southeast-1.compute.amazonaws.com:8081/api/clothes/' + item.id })}
       style={styles.item}
     >
       {item.image && Array.isArray(item.image) && item.image.length > 0 ? (
